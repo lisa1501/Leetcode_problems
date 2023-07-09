@@ -28,7 +28,8 @@ Constraints:
 0 <= nums[i] <= 50
 0 <= val <= 100
 """
-
+# Time complexity: O(n)
+# Space complexity: O(1)
 def removeElement(nums, val):
         """
         :type nums: List[int]

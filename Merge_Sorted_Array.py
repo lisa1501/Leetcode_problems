@@ -35,7 +35,8 @@ Constraints:
     -109 <= nums1[i], nums2[j] <= 109
 
 """
-
+# Time complexity: O(m+n)
+# Space complexity: O(1)
 def merge(nums1, m, nums2, n):
     """
     :type nums1: List[int]

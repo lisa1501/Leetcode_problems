@@ -28,7 +28,8 @@ s consists of only English letters and spaces ' '.
 There will be at least one word in s.
 
 """
-
+# Time complexity: O(n)
+# Space complexity: O(n)
 def lengthOfLastWord( s ):
     """
     :type s: str

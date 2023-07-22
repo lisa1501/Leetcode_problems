@@ -16,7 +16,8 @@ Constraints:
 intervals[i].length == 2
 0 <= starti <= endi <= 104
 """
-
+# Time complexity: O(nlogn)
+# Space complexity: O(nlogn) or O(n)
 def merge(intervals):
     """
     :type intervals: List[List[int]]

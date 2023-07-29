@@ -30,12 +30,12 @@ def isPalindrome(x):
     if x < 0 or (x%10==0 and x!=0):
         return False
 
-    reverte_number =0
-    while x> reverte_number:
-        reverte_number = reverte_number * 10 + reverte_number %10 
+    reverted_number =0
+    while x> reverted_number:
+        reverted_number = reverted_number * 10 + reverted_number %10 
 
         x //= 10
-    return x == reverte_number or x == reverte_number//10
+    return x == reverted_number or x == reverted_number//10
 
 print(isPalindrome(121)) #True
 print(isPalindrome(-122)) #False

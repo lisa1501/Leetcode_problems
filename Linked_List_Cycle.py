@@ -26,6 +26,12 @@ pos is -1 or a valid index in the linked-list.
 
 # Time complexity: O(n)
 # Space complexity: O(1)
+class ListNode(object):
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+
+
 def hasCycle(head):
     """
     :type head: ListNode
@@ -43,3 +49,6 @@ def hasCycle(head):
         walk = walk.next
         run = run.next.next
     return True
+
+
+print(hasCycle([3,2,0,-4]))
